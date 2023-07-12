@@ -1,6 +1,6 @@
 import UIKit
 
-public class AbstractController: UIViewController, TableCellDelegate, CollectionCellDelegate {
+open class AbstractController: UIViewController, TableCellDelegate, CollectionCellDelegate {
 
     //MARK:- IBOutlets
     @IBOutlet weak var tblVw: UITableView!
@@ -76,7 +76,7 @@ public class AbstractController: UIViewController, TableCellDelegate, Collection
     }
     
     //MARK:- View Life Cycle
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         if tblVw != nil {

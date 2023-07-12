@@ -9,7 +9,7 @@
 import UIKit
 import Pods_TCocoapodsLibrary_Example
 
-class ViewController: AbstractController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
