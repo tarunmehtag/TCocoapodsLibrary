@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCocoapodsLibrary'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'This is the hub of extensions and Generally used classes.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tarunmehtag' => 'tarunmehta152@gmail.com' }
-  s.source           = { :git => 'https://github.com/tarunmehtag/TCocoapodsLibrary.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/tarunmehtag/TCocoapodsLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '5.0'
   s.ios.deployment_target = '13.0'

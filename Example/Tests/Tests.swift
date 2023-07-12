@@ -1,5 +1,4 @@
 import XCTest
-import TCocoapodsLibrary
 
 class Tests: XCTestCase {
     

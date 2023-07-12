@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Pods_TCocoapodsLibrary_Example
 
 class ViewController: AbstractController {
 

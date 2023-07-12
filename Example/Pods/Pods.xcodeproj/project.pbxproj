@@ -138,9 +138,9 @@
 		BD3F1A031A850AEEB51DCA87D3F0B8E8 /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC56D5196062B45A5D6699A09A8E364 /* SDMemoryCache.m */; };
 		BF2AE5351EF7CD798E185F5CF6BB37B5 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E419A94F4CCAA6B7C09C96E1E44043EB /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF64A0131B27EEBB770BBEB5815B5528 /* SDWebImageDownloaderDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 040D513CD00E15FA72E6944869B9CF04 /* SDWebImageDownloaderDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8265CD2A5E8FAE00255B39 /* AbstractTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8265CA2A5E8FAE00255B39 /* AbstractTblCell.swift */; };
-		BF8265CE2A5E8FAE00255B39 /* AbstractController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8265CB2A5E8FAE00255B39 /* AbstractController.swift */; };
-		BF8265CF2A5E8FAE00255B39 /* AbstractCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8265CC2A5E8FAE00255B39 /* AbstractCollectionCell.swift */; };
+		BF8265D42A5E90B700255B39 /* AbstractTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8265D12A5E90B700255B39 /* AbstractTblCell.swift */; };
+		BF8265D52A5E90B700255B39 /* AbstractController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8265D22A5E90B700255B39 /* AbstractController.swift */; };
+		BF8265D62A5E90B700255B39 /* AbstractCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8265D32A5E90B700255B39 /* AbstractCollectionCell.swift */; };
 		C02B51CBF5F9118E46BE861146FBAD94 /* SDImageFramePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 113E58C5987BD0FDF68545C4D81E82DD /* SDImageFramePool.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C1271782B45B4240FA73BA33D77667A7 /* SDImageCachesManagerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E6ADC85327CBAADEFA2DF6E78DAA7852 /* SDImageCachesManagerOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C1737EA47E0002230DAECC079BC3F763 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFCE893945187FADF02B4AB93F9BDAC /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -341,9 +341,9 @@
 		B7D285E043807C9C066AE8AB70BA913A /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/Core/SDImageGIFCoder.m; sourceTree = "<group>"; };
 		B8D3B22ECFF1F588CD65282ABF444BF6 /* Pods-TCocoapodsLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCocoapodsLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		BA935303948C91966CB736F04353091A /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
-		BF8265CA2A5E8FAE00255B39 /* AbstractTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTblCell.swift; sourceTree = "<group>"; };
-		BF8265CB2A5E8FAE00255B39 /* AbstractController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractController.swift; sourceTree = "<group>"; };
-		BF8265CC2A5E8FAE00255B39 /* AbstractCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractCollectionCell.swift; sourceTree = "<group>"; };
+		BF8265D12A5E90B700255B39 /* AbstractTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTblCell.swift; sourceTree = "<group>"; };
+		BF8265D22A5E90B700255B39 /* AbstractController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractController.swift; sourceTree = "<group>"; };
+		BF8265D32A5E90B700255B39 /* AbstractCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractCollectionCell.swift; sourceTree = "<group>"; };
 		C0A1C68883942BF538BF0678EA4BA299 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		C1AC01B67C0F5291A349552958D8CD01 /* Pods-TCocoapodsLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCocoapodsLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		C1C64D7C73076E0B4DD0238488B8370F /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
@@ -543,7 +543,7 @@
 		6C25325F26B116481BA26228322E11A8 /* TCocoapodsLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				BF8265C92A5E8FAE00255B39 /* Abstract Classes */,
+				BF8265D02A5E90B700255B39 /* Abstract Classes */,
 				4AF2B70326BD88B2AF11CC9D9D5792CB /* Pod */,
 				1FF437F732C9586B47E6A643FBFA5E06 /* Support Files */,
 			);
@@ -713,12 +713,12 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		BF8265C92A5E8FAE00255B39 /* Abstract Classes */ = {
+		BF8265D02A5E90B700255B39 /* Abstract Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BF8265CA2A5E8FAE00255B39 /* AbstractTblCell.swift */,
-				BF8265CB2A5E8FAE00255B39 /* AbstractController.swift */,
-				BF8265CC2A5E8FAE00255B39 /* AbstractCollectionCell.swift */,
+				BF8265D12A5E90B700255B39 /* AbstractTblCell.swift */,
+				BF8265D22A5E90B700255B39 /* AbstractController.swift */,
+				BF8265D32A5E90B700255B39 /* AbstractCollectionCell.swift */,
 			);
 			name = "Abstract Classes";
 			path = "../../../../Desktop/Appointment Layer/Appointment Layer/Appointment Layer/Abstract Classes";
@@ -974,10 +974,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8265CD2A5E8FAE00255B39 /* AbstractTblCell.swift in Sources */,
+				BF8265D42A5E90B700255B39 /* AbstractTblCell.swift in Sources */,
 				25A53A36413B4DE75D654C60ED977D62 /* Pods-TCocoapodsLibrary_Example-dummy.m in Sources */,
-				BF8265CE2A5E8FAE00255B39 /* AbstractController.swift in Sources */,
-				BF8265CF2A5E8FAE00255B39 /* AbstractCollectionCell.swift in Sources */,
+				BF8265D52A5E90B700255B39 /* AbstractController.swift in Sources */,
+				BF8265D62A5E90B700255B39 /* AbstractCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
