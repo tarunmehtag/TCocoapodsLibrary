@@ -1,16 +1,25 @@
 PODS:
-  - TCocoapodsLibrary (0.1.0)
+  - SDWebImage (5.16.0):
+    - SDWebImage/Core (= 5.16.0)
+  - SDWebImage/Core (5.16.0)
+  - TCocoapodsLibrary (0.1.4):
+    - SDWebImage
 
 DEPENDENCIES:
   - TCocoapodsLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   TCocoapodsLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TCocoapodsLibrary: 9d6f53c283aceadc543732fc964d2cebc2d80b09
+  SDWebImage: 2aea163b50bfcb569a2726b6a754c54a4506fcf6
+  TCocoapodsLibrary: eebdc6e107d89fe828d14b1c8d307c4b45eee8fe
 
-PODFILE CHECKSUM: 8ff8061f409bb1d75a0b64f6f281f5a41e7da931
+PODFILE CHECKSUM: bb2c7bd2989dec5df108d477ec5a0b3d7b09c8d8
 
 COCOAPODS: 1.11.3

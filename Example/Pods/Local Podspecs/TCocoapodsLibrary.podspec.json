@@ -1,7 +1,7 @@
 {
   "name": "TCocoapodsLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of TCocoapodsLibrary.",
+  "version": "0.1.4",
+  "summary": "This is the hub of extensions and Generally used classes.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tarunmehtag/TCocoapodsLibrary",
   "license": {
@@ -13,10 +13,17 @@
   },
   "source": {
     "git": "https://github.com/tarunmehtag/TCocoapodsLibrary.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "TCocoapodsLibrary/Classes/**/*"
+  "source_files": "TCocoapodsLibrary/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

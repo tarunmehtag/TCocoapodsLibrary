@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCocoapodsLibrary'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'This is the hub of extensions and Generally used classes.'
 
 # This description is used to generate tags and improve search results.
