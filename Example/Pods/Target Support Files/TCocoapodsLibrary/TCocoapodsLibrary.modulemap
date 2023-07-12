@@ -1,0 +1,6 @@
+framework module TCocoapodsLibrary {
+  umbrella header "TCocoapodsLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

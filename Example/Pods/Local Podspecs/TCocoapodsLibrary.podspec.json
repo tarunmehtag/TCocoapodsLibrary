@@ -1,0 +1,22 @@
+{
+  "name": "TCocoapodsLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of TCocoapodsLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tarunmehtag/TCocoapodsLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tarunmehtag": "tarunmehta152@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tarunmehtag/TCocoapodsLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TCocoapodsLibrary/Classes/**/*"
+}

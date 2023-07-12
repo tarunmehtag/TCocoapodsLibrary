@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08292625F9A9069652AD15DB /* TCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TCocoapodsLibrary.podspec; path = ../TCocoapodsLibrary.podspec; sourceTree = "<group>"; };
+		08292625F9A9069652AD15DB /* TCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCocoapodsLibrary.podspec; path = ../TCocoapodsLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		09889FC8D1DA679D8BE98CAE /* Pods-TCocoapodsLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCocoapodsLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TCocoapodsLibrary_Tests/Pods-TCocoapodsLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3408C8571B2D91B7146141A1 /* Pods-TCocoapodsLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCocoapodsLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-TCocoapodsLibrary_Example/Pods-TCocoapodsLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		417B2B169C08EAF15E03F05D /* Pods_TCocoapodsLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCocoapodsLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		578C7201596A119AB725AC81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		578C7201596A119AB725AC81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TCocoapodsLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCocoapodsLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		763838E94A66F92F844F257F /* Pods-TCocoapodsLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCocoapodsLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-TCocoapodsLibrary_Example/Pods-TCocoapodsLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B7B53BEBED397FF90577C38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7B7B53BEBED397FF90577C38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		80CF62A7C77C27072BCACE07 /* Pods-TCocoapodsLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCocoapodsLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-TCocoapodsLibrary_Tests/Pods-TCocoapodsLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F95A64CC4C447677DA8A06D0 /* Pods_TCocoapodsLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCocoapodsLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				09889FC8D1DA679D8BE98CAE /* Pods-TCocoapodsLibrary_Tests.debug.xcconfig */,
 				80CF62A7C77C27072BCACE07 /* Pods-TCocoapodsLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				781A32388A303DFF11D1DF06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,24 +261,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		781A32388A303DFF11D1DF06 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TCocoapodsLibrary_Example/Pods-TCocoapodsLibrary_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TCocoapodsLibrary/TCocoapodsLibrary.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TCocoapodsLibrary.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCocoapodsLibrary_Example/Pods-TCocoapodsLibrary_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		910B63D9032CE37DA15E1337 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

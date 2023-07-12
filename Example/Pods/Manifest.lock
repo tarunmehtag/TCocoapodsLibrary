@@ -1,0 +1,16 @@
+PODS:
+  - TCocoapodsLibrary (0.1.0)
+
+DEPENDENCIES:
+  - TCocoapodsLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  TCocoapodsLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCocoapodsLibrary: 9d6f53c283aceadc543732fc964d2cebc2d80b09
+
+PODFILE CHECKSUM: 8ff8061f409bb1d75a0b64f6f281f5a41e7da931
+
+COCOAPODS: 1.11.3

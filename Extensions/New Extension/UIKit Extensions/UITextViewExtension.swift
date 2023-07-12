@@ -1,0 +1,59 @@
+//
+//  UITextViewExtension.swift
+//  Infinite BackUp
+//
+//  Created by Tarun Mehta on 11/12/18.
+//  Copyright © 2018 paige. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+extension UITextView :UITextViewDelegate {
+    
+    /// Resize the placeholder when the UITextView bounds change
+    override open var bounds: CGRect {
+        didSet {
+            self.resizePlaceholder()
+        }
+    }
+    
+    /// When the UITextView did change, show or hide the label based on if the UITextView is empty or not
+    ///
+    /// - Parameter textView: The UITextView that got updated
+    public func textViewDidChange(_ textView: UITextView) {
+        if let placeholderLabel = self.viewWithTag(10000) as? UILabel {
+            placeholderLabel.isHidden = self.text.count > 0
+        }
+    }
+    
+    /// Resize the placeholder UILabel to make sure it's in the same position as the UITextView text
+    func resizePlaceholder() {
+        if let placeholderLabel = self.viewWithTag(10000) as! UILabel? {
+            let labelX = self.textContainer.lineFragmentPadding
+            let labelY = self.textContainerInset.top - 2
+            let labelWidth = self.frame.width - (labelX * 2)
+            let labelHeight = placeholderLabel.frame.height
+            
+            placeholderLabel.frame = CGRect(x: labelX, y: labelY, width: labelWidth, height: labelHeight)
+        }
+    }
+    
+    /// Adds a placeholder UILabel to this UITextView
+    func addPlaceholder(_ placeholderText: String) {
+        let placeholderLabel = UILabel()
+        
+        placeholderLabel.text = placeholderText
+        placeholderLabel.sizeToFit()
+        
+        placeholderLabel.font = self.font
+        placeholderLabel.textColor = UIColor.lightGray
+        placeholderLabel.tag = 10000
+        
+        placeholderLabel.isHidden = self.text.count > 0
+        
+        self.addSubview(placeholderLabel)
+        self.resizePlaceholder()
+        self.delegate = self
+    }
+}
